@@ -1,0 +1,10 @@
+[Unit]
+Description=Rust Clipboard Monitoring Daemon
+
+[Service]
+ExecStart=/usr/bin/clipboard-daemon
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.targetu

@@ -7,7 +7,7 @@ if [[ -z $1 ]]; then
     fi
 else
     case $1 in
-    main)
+    m)
         nvim $PWD/src/main.*
         ;;
     esac
